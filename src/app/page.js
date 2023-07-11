@@ -1,6 +1,10 @@
-import { NavBar } from "./components/NavBar"
-import { Hero } from "./components/Hero";
-import { ServiceSwiper } from "./components/serviceSwiper"
+import { NavBar } from "@comp/NavBar"
+import { Hero } from "@comp/Hero";
+import { Carousel } from "@comp/carousel"
+import { ServiceSummary } from "@comp/ServiceSummary"
+import { Services } from "@comp/services";
+import { Testimonial } from "@comp/testimonial"
+import { DonationCta } from "@comp/donationCta"
 
 export default function Home() {
   return (
@@ -8,7 +12,11 @@ export default function Home() {
       <NavBar />
       <main>
         <Hero />
-        <ServiceSwiper/>
+        <Carousel />
+        <ServiceSummary />
+        <Services />
+        <Testimonial />
+        <DonationCta />
       </main>
     </>
   )

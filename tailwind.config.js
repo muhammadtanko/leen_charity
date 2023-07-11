@@ -5,9 +5,10 @@ module.exports = {
   ],
   theme: {
     colors: {
-      "white":"#ffffff",
+      "white": "#ffffff",
       "primary": "#00725E",
-      "black": "#1010101"
+      "black": "#1010101",
+      "dark": "#000000"
     },
     screens: {
       'sm': '640px',
@@ -21,7 +22,7 @@ module.exports = {
       '2xl': '1536px',
     },
     fontFamily: {
-      WorkSans:["Work Sans"]
+      WorkSans: ["Work Sans"]
     },
     extend: {},
   },

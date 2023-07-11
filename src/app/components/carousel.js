@@ -9,9 +9,9 @@ import 'swiper/css/pagination';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 
-export const ServiceSwiper = () => {
+export const Carousel = () => {
     return (
-        <div className="mx-[30px] my-[30px] hidden md:block">
+        <div className="mx-[30px] my-[30px] block md:block">
             <Swiper
                 className="mySwiper"
                 navigation={true}

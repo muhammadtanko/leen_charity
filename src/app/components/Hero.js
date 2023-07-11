@@ -6,7 +6,7 @@ export const Hero = () => {
     return (
         <div className="px-6 mx-[30px]">
             <div className="flex justify-between">
-                <div className="font-bold mt-[36px]">
+                <div className="font-bold mt-[36px] min-w-[674px] ">
                     <p className="text-primary font-bold max-w-[250px]  text-sm md:text-4xl md:max-w-xl">Leen charity Organization is an
                         Organization that comes with...</p>
                     <p className="font-medium text-sm  max-w-[348px] md:max-w-[672px] md:text-2xl ">
@@ -19,7 +19,7 @@ export const Hero = () => {
                     <button className="mt-[29px] px-4 py-6 rounded-br-3xl text-white bg-primary"> Donate Now</button>
                     </Link>
                 </div>
-                <div className="relative hidden md:block  w-[556px] h-[570px]">
+                <div className="relative hidden md:block min-w-[556px] w-[556px] h-[570px]">
                     <div className="absolute z-10">
                         <Image height={362} width={242} src="/images/img1.png" />
                     </div>
