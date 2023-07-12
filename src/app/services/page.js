@@ -1,14 +1,16 @@
-import { NavBar} from "../components/NavBar"
-const Service = ()=>{
-    return(
-        <div>
+import { Footer } from "@comp/footer";
+import { NavBar } from "../components/NavBar"
+import { Services } from "@comp/services"
+const Service = () => {
+  return (
+    <div>
       <NavBar />
       <main>
-
-            <h1>Welcome to the services page</h1>
+        <Services />
+        <Footer />
       </main>
 
-        </div>
-    )
+    </div>
+  )
 }
 export default Service;
