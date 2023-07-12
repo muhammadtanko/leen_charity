@@ -8,7 +8,9 @@ module.exports = {
       "white": "#ffffff",
       "primary": "#00725E",
       "black": "#1010101",
-      "dark": "#000000"
+      "dark": "#000000",
+      "footerbg":"#00C99C14",
+      "textblack":"#454545"
     },
     screens: {
       'sm': '640px',

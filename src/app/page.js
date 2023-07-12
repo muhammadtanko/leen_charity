@@ -4,7 +4,8 @@ import { Carousel } from "@comp/carousel"
 import { ServiceSummary } from "@comp/ServiceSummary"
 import { Services } from "@comp/services";
 import { Testimonial } from "@comp/testimonial"
-import { DonationCta } from "@comp/donationCta"
+import { DonationCta } from "@comp/donationCta";
+import { Footer } from "@comp/footer"
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Services />
         <Testimonial />
         <DonationCta />
+        <Footer />
       </main>
     </>
   )
