@@ -27,7 +27,7 @@ export const NavBar = () => {
     }
     return (
         <div className="font-WorkSans">
-            <div className="flex justify-between px-6 py-4">
+            <div className="flex justify-between px-6 py-4 mx-[30px]">
                 <div className="block md:hidden pt-1">
                     {open ? (
                         <div onClick={() => setOpen(false)}>
