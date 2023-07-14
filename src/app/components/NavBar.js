@@ -4,6 +4,7 @@ import { BsPersonFill } from "react-icons/bs";
 import { RiMenu3Fill, } from "react-icons/ri"
 import Link from "next/link"
 import { useState } from "react";
+import { usePathname } from "next/navigation"
 
 const navItem = [
     {
@@ -21,6 +22,8 @@ const navItem = [
 ]
 
 export const NavBar = () => {
+
+    const pathName = usePathname()
     const [open, setOpen] = useState(false)
     const handleOpen = () => {
         setOpen(true)
@@ -47,15 +50,22 @@ export const NavBar = () => {
                 </Link>
 
                 <div className="hidden md:block lg:block"  >
-                    {navItem.map((item, idx) => (
-                        <Link
-                            href={item.to}
-                            key={idx}
+                    {navItem.map((item, idx) => {
+                        // const isActive = pathName.startsWith(item.to)
+                        // console.log(typeof(pathName));
+                        // console.log(item.to);
+                        return (
+                            <Link
+                                href={item.to}
+                                key={idx}
+                                // className={isActive ? "mx-4 text-primary hover:text-primary " : "mx-4 text-black hover:text-primary active:text-primary"}
                             className="mx-4 text-black hover:text-primary active:text-primary"
-                        >
-                            {item.name}
-                        </Link>
-                    ))}
+                            >
+                                {item.name}
+                            </Link>
+                        )
+
+                    })}
                 </div>
                 <div className="hidden md:block">
                     <Link
@@ -87,7 +97,7 @@ export const NavBar = () => {
                         ))}
                     </ul>
                     <Link href="/login">
-                    <button className="text-white w-full rounded py-4 px-3 bg-primary">Log in</button>
+                        <button className="text-white w-full rounded py-4 px-3 bg-primary">Log in</button>
                     </Link>
                 </div>
             }
