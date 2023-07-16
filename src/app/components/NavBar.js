@@ -48,7 +48,6 @@ export const NavBar = () => {
                         <h1>LOGO</h1>
                     </div>
                 </Link>
-
                 <div className="hidden md:block lg:block"  >
                     {navItem.map((item, idx) => {
                         // const isActive = pathName.startsWith(item.to)
