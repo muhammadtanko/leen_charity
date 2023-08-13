@@ -7,10 +7,6 @@ export const ProjectsSumarry = () => {
 
     const summary = [
         {
-            text: "View Active Projects",
-            to: "/"
-        },
-        {
             text: "View Ongoing Projects",
             to: "/"
         },

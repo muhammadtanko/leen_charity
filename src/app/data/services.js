@@ -17,7 +17,8 @@ export const services = [
                 moneyDonated: "20000+",
                 activeCampaings: "10",
                 openedCharity: "200",
-                totalCost: "2M naira "
+                totalCost: "2M naira ",
+                status:"ongoing"
             }
         ]
     },
@@ -36,7 +37,8 @@ export const services = [
                 moneyDonated: "20000+",
                 activeCampaings: "10",
                 openedCharity: "200",
-                totalCost: "2M naira "
+                totalCost: "2M naira ",
+                status:"previous"
             },
             {
                 name: "Sewing machine and clothes",
@@ -46,7 +48,8 @@ export const services = [
                 moneyDonated: "20000+",
                 activeCampaings: "10",
                 openedCharity: "200",
-                totalCost: "2M naira "
+                totalCost: "2M naira ",
+                status:"ongoing"
             },
             {
                 name: "Sewing machine and clothes",
@@ -56,7 +59,8 @@ export const services = [
                 moneyDonated: "20000+",
                 activeCampaings: "10",
                 openedCharity: "200",
-                totalCost: "2M naira "
+                totalCost: "2M naira ",
+                status:"previous"
             },
             {
                 name: "Sewing machine and clothes",
@@ -66,7 +70,8 @@ export const services = [
                 moneyDonated: "20000+",
                 activeCampaings: "10",
                 openedCharity: "200",
-                totalCost: "2M naira "
+                totalCost: "2M naira ",
+                status:"ongoing"
             },
             {
                 name: "Sewing machine and clothes",
@@ -76,7 +81,8 @@ export const services = [
                 moneyDonated: "20000+",
                 activeCampaings: "10",
                 openedCharity: "200",
-                totalCost: "2M naira "
+                totalCost: "2M naira ",
+                status:"ongoing"
             },
             {
                 name: "Sewing machine and clothes",
@@ -86,7 +92,8 @@ export const services = [
                 moneyDonated: "20000+",
                 activeCampaings: "10",
                 openedCharity: "200",
-                totalCost: "2M naira "
+                totalCost: "2M naira ",
+                status:"ongoing"
             }
         ]
     },
@@ -105,7 +112,8 @@ export const services = [
                 moneyDonated: "20000+",
                 activeCampaings: "10",
                 openedCharity: "200",
-                totalCost: "2M naira "
+                totalCost: "2M naira ",
+                status:"previous"
             }
         ]
     },
@@ -124,7 +132,8 @@ export const services = [
                 moneyDonated: "20000+",
                 activeCampaings: "10",
                 openedCharity: "200",
-                totalCost: "2M naira "
+                totalCost: "2M naira ",
+                status:"previous"
             }
         ]
     },
@@ -143,7 +152,8 @@ export const services = [
                 moneyDonated: "20000+",
                 activeCampaings: "10",
                 openedCharity: "200",
-                totalCost: "2M naira "
+                totalCost: "2M naira ",
+                status:"previous"
             }
         ]
     },
@@ -162,7 +172,8 @@ export const services = [
                 moneyDonated: "20000+",
                 activeCampaings: "10",
                 openedCharity: "200",
-                totalCost: "2M naira "
+                totalCost: "2M naira ",
+                status:"previous"
             }
         ]
     }

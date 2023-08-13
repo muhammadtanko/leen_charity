@@ -69,7 +69,7 @@ export const Footer = () => {
                             Newsletter
                         </div>
                         <div className="">
-                            <input placeholder="Input your email" type="text" className="bg-footerbg focus:outline-none w-[310px] border-primary border-b-2 " />
+                            <input placeholder="Input your email" type="text" className="p-1 bg-footerbg focus:outline-none w-[310px] border-primary border-b-2 " />
                         </div>
                     </div>
 
