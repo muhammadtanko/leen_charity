@@ -4,7 +4,6 @@ import { BsPersonFill } from "react-icons/bs";
 import { RiMenu3Fill, } from "react-icons/ri"
 import Link from "next/link"
 import { useState } from "react";
-import { usePathname } from "next/navigation"
 import Image from "next/image";
 
 const navItem = [
@@ -27,8 +26,6 @@ const navItem = [
 ]
 
 export const NavBar = () => {
-
-    const pathName = usePathname()
     const [open, setOpen] = useState(false)
     const handleOpen = () => {
         setOpen(true)
@@ -50,14 +47,11 @@ export const NavBar = () => {
                 </div>
                 <Link href="/">
                     <div className="hidden md:block text-primary md:text-[24px] font-[700] cursor-pointer">
-                        <Image src="/images/logo.png" width={100} height={100} alt="Logo" />
+                        <Image src="/images/Logo.png" width={100} height={100} alt="Logo" />
                     </div>
                 </Link>
                 <div className="hidden md:block lg:block"  >
                     {navItem.map((item, idx) => {
-                        // const isActive = pathName.startsWith(item.to)
-                        // console.log(typeof(pathName));
-                        // console.log(item.to);
                         return (
                             <Link
                                 href={item.to}

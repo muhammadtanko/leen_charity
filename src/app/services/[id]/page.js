@@ -2,12 +2,17 @@
 import { usePathname } from "next/navigation";
 import { NavBar } from "@comp/NavBar"
 import { Footer } from "@comp/footer"
-import { services } from "../../data/services"
+import { useState } from "react";
+import { services } from "../../data/services";
 import Image from "next/image";
 import Link from "next/link";
 
 
 export default function Page() {
+    const [isOpen, setIsOpen] = useState(false);
+    const toggleDropdown = () => {
+        setIsOpen(!isOpen);
+    };
     const path = usePathname()
     const service = services.filter((item) => {
         return item.id == path.split("/")[2]
@@ -23,28 +28,46 @@ export default function Page() {
                     <div className="">
                         <Image src={"/images/img4.png"} height={445} width={376} />
                     </div>
-                    <div className="">
-                        <div className="text-primary font-semibold text-[36px] leading-[42px] ">
-                            <div>
-                                Donate now
-                            </div>
-                            <div className="">
-
-                            </div>
+                    <div className="flex flex-col p-4">
+                        <div className="text-primary font-semibold text-[36px] leading-[42px] mb-10">
+                            Donate now
                         </div>
-                        <div className="flex justify-between">
+                        <div className="flex justify-between mb-10">
                             <input type="radio" name="payment" id="" value="once" />
                             <label htmlFor="payment">One Time</label>
                             <input type="radio" name="payment" id="" value="monthly" />
                             <label htmlFor="payment">Monthly</label>
                         </div>
+                        <div className="flex justify-between mb-8">
+                            <span className="border-2 border-primary p-3 rounded-l-lg">N</span>
+                            <input placeholder="Enter amount to donate" type="text" name="amount" id="" className="border-2 border-primary rounded-r-lg p-3 focus:outline-none" />
+                        </div>
+                        <div className="self-end">
+                            <button className="bg-primary text-white rounded-br-3xl p-3" type="submit">Donate</button>
+                        </div>
                     </div>
-                    <div className=""></div>
+                    <div className="relative inline-block text-left">
+                        <button
+                            type="button"
+                            className="px-4 py-2 border-2 border-primary rounded-br-[30px] flex text-primary"
+                            onClick={toggleDropdown}
+                        >
+                            Payment Type<Image className="md:pt-2 md:pl-2" src={"/images/dropDown.svg"} height={35} width={30} />
+                        </button>
+                        <div className={`absolute ${isOpen ? "" : "hidden"} mt-2 bg-white w-full text-black border-primary border rounded-md drop-shadow-lg divide-y divide-primary`}>
+                            <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                                Card
+                            </a>
+                            <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                                Transfer
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div className="text-normal leading-9 text-[24px] mt-5">
                     Lorem ipsum dolor sit amet consectetur. Neque ut montes lorem ullamcorper pharetra et. Quam viverra sit in pretium quam. Consectetur posuere porta nam feugiat mauris ornare sapien scelerisque. Mauris ipsum porttitor aliquet pulvinar fermentum ut curabitur tempus nulla. At eleifend mollis tellus quis tristique orci orci. Interdum vitae aliquet enim ipsum auctor rutrum purus lacus. Tempor nunc sed nibh pulvinar nibh. Arcu quis ac sed sem.Lorem ipsum dolor sit amet consectetur. Neque ut montes lorem ullamcorper pharetra et. Quam viverra sit in pretium quam. Consectetur posuere porta nam feugiat mauris ornare sapien scelerisque. Mauris ipsum porttitor aliquet pulvinar fermentum ut curabitur tempus nulla. At eleifend mollis tellus quis tristique orci orci. Interdum vitae aliquet enim ipsum auctor rutrum purus lacus. Tempor nunc sed nibh pulvinar nibh. Arcu quis ac sed sem.Lorem ipsum dolor sit amet consectetur. Neque ut montes lorem ullamcorper pharetra et. Quam viverra sit in pretium quam. Consectetur posuere porta.
                 </div>
-                {service[0].previousProjects.map((item, idx) => (
+                {service[0].projects.map((item, idx) => (
                     <div key={idx} className="rounded-br-3xl bg-primary w-full md:h-[300px] text-white  grid grid-cols-1 divide-y p-4 my-[20px]">
                         <div className="flex justify-between">
                             <div className="md:w-[67px] md:h-[25px] w-[50px] h-[19px] rounded-lg bg-white text-[#000000B2] text-center mr-1 md:text-base text-[8px] font-bold p-1 md:p-0">
