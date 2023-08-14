@@ -4,7 +4,7 @@ import { BsPersonFill } from "react-icons/bs";
 import { RiMenu3Fill, } from "react-icons/ri"
 import Link from "next/link"
 import { useState } from "react";
-import { usePathname } from "next/navigation"
+import Image from "next/image";
 
 const navItem = [
     {
@@ -16,14 +16,16 @@ const navItem = [
         to: "/services",
     },
     {
-        name: "Gallery",
-        to: "/gallery",
+        name: "Projects",
+        to: "/projects",
+    }
+    , {
+        name: "Contact",
+        to: "/contact"
     }
 ]
 
 export const NavBar = () => {
-
-    const pathName = usePathname()
     const [open, setOpen] = useState(false)
     const handleOpen = () => {
         setOpen(true)
@@ -45,20 +47,17 @@ export const NavBar = () => {
                 </div>
                 <Link href="/">
                     <div className="hidden md:block text-primary md:text-[24px] font-[700] cursor-pointer">
-                        <h1>LOGO</h1>
+                        <Image src="/images/Logo.png" width={100} height={100} alt="Logo" />
                     </div>
                 </Link>
                 <div className="hidden md:block lg:block"  >
                     {navItem.map((item, idx) => {
-                        // const isActive = pathName.startsWith(item.to)
-                        // console.log(typeof(pathName));
-                        // console.log(item.to);
                         return (
                             <Link
                                 href={item.to}
                                 key={idx}
                                 // className={isActive ? "mx-4 text-primary hover:text-primary " : "mx-4 text-black hover:text-primary active:text-primary"}
-                            className="mx-4 text-black hover:text-primary active:text-primary"
+                                className="mx-4 text-black hover:text-primary active:text-primary"
                             >
                                 {item.name}
                             </Link>

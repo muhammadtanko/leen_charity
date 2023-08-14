@@ -8,7 +8,7 @@ export const services = [
         name: "Zakah and Sadaqah services",
         image: "",
         text: "Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting",
-        previousProjects: [
+        projects: [
             {
                 name: "Sewing machine and clothes",
                 location: "kaduna, nigeria",
@@ -17,7 +17,8 @@ export const services = [
                 moneyDonated: "20000+",
                 activeCampaings: "10",
                 openedCharity: "200",
-                totalCost: "2M naira "
+                totalCost: "2M naira ",
+                status:"ongoing"
             }
         ]
     },
@@ -27,7 +28,7 @@ export const services = [
         name: "Orphan and prisoners welfare",
         image: "",
         text: "Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting",
-        previousProjects: [
+        projects: [
             {
                 name: "Sewing machine and clothes",
                 location: "kaduna",
@@ -36,7 +37,8 @@ export const services = [
                 moneyDonated: "20000+",
                 activeCampaings: "10",
                 openedCharity: "200",
-                totalCost: "2M naira "
+                totalCost: "2M naira ",
+                status:"previous"
             },
             {
                 name: "Sewing machine and clothes",
@@ -46,7 +48,8 @@ export const services = [
                 moneyDonated: "20000+",
                 activeCampaings: "10",
                 openedCharity: "200",
-                totalCost: "2M naira "
+                totalCost: "2M naira ",
+                status:"ongoing"
             },
             {
                 name: "Sewing machine and clothes",
@@ -56,7 +59,8 @@ export const services = [
                 moneyDonated: "20000+",
                 activeCampaings: "10",
                 openedCharity: "200",
-                totalCost: "2M naira "
+                totalCost: "2M naira ",
+                status:"previous"
             },
             {
                 name: "Sewing machine and clothes",
@@ -66,7 +70,8 @@ export const services = [
                 moneyDonated: "20000+",
                 activeCampaings: "10",
                 openedCharity: "200",
-                totalCost: "2M naira "
+                totalCost: "2M naira ",
+                status:"ongoing"
             },
             {
                 name: "Sewing machine and clothes",
@@ -76,7 +81,8 @@ export const services = [
                 moneyDonated: "20000+",
                 activeCampaings: "10",
                 openedCharity: "200",
-                totalCost: "2M naira "
+                totalCost: "2M naira ",
+                status:"ongoing"
             },
             {
                 name: "Sewing machine and clothes",
@@ -86,7 +92,8 @@ export const services = [
                 moneyDonated: "20000+",
                 activeCampaings: "10",
                 openedCharity: "200",
-                totalCost: "2M naira "
+                totalCost: "2M naira ",
+                status:"ongoing"
             }
         ]
     },
@@ -96,7 +103,7 @@ export const services = [
         name: "Water Aid",
         image: "",
         text: "Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting",
-        previousProjects: [
+        projects: [
             {
                 name: "Sewing machine and clothes",
                 location: "kaduna",
@@ -105,7 +112,8 @@ export const services = [
                 moneyDonated: "20000+",
                 activeCampaings: "10",
                 openedCharity: "200",
-                totalCost: "2M naira "
+                totalCost: "2M naira ",
+                status:"previous"
             }
         ]
     },
@@ -115,7 +123,7 @@ export const services = [
         name: "Building Islamic schools and mosques",
         image: "",
         text: "Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting",
-        previousProjects: [
+        projects: [
             {
                 name: "Sewing machine and clothes",
                 location: "kaduna",
@@ -124,7 +132,8 @@ export const services = [
                 moneyDonated: "20000+",
                 activeCampaings: "10",
                 openedCharity: "200",
-                totalCost: "2M naira "
+                totalCost: "2M naira ",
+                status:"previous"
             }
         ]
     },
@@ -134,7 +143,7 @@ export const services = [
         name: "Da'awah committee",
         image: "",
         text: "Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting",
-        previousProjects: [
+        projects: [
             {
                 name: "Sewing machine and clothes",
                 location: "kaduna",
@@ -143,7 +152,8 @@ export const services = [
                 moneyDonated: "20000+",
                 activeCampaings: "10",
                 openedCharity: "200",
-                totalCost: "2M naira "
+                totalCost: "2M naira ",
+                status:"previous"
             }
         ]
     },
@@ -153,7 +163,7 @@ export const services = [
         name: "Emergency & Health care services",
         image: "",
         text: "Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting",
-        previousProjects: [
+        projects: [
             {
                 name: "Sewing machine and clothes",
                 location: "kaduna",
@@ -162,7 +172,8 @@ export const services = [
                 moneyDonated: "20000+",
                 activeCampaings: "10",
                 openedCharity: "200",
-                totalCost: "2M naira "
+                totalCost: "2M naira ",
+                status:"previous"
             }
         ]
     }
