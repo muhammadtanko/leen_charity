@@ -20,7 +20,8 @@ export default function Page() {
     function capitalize(s) {
         return s.charAt(0).toUpperCase() + s.slice(1);
     }
-    let projectStatus =capitalize(path.split("/")[2])
+    let projectStatus = capitalize(path.split("/")[2]);
+    console.log("targetProjects", targetProjects);
     return (
         <div className="mx-[50px]">
             <NavBar />
