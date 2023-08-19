@@ -28,7 +28,7 @@ export default function Page() {
             <main>
                 <h1 className="ml-[50px] font-normal text-primary text-[24px] leading-[28px]">{`Projects | ${projectStatus} Projects`}</h1>
                 {targetProjects.map((item, idx) => (
-                    <div key={idx} className="rounded-br-3xl bg-primary w-full md:h-[300px] text-white  grid grid-cols-1 divide-y p-4 my-[20px]">
+                    <div key={idx} className="rounded-br-3xl bg-primary w-full md:h-[300px] text-white  grid grid-cols-1 divide-y p-4 my-[20px] cursor-pointer">
                         <div className="flex justify-between">
                             <div className="md:w-[67px] md:h-[25px] w-[50px] h-[19px] rounded-lg bg-white text-[#000000B2] text-center mr-1 md:text-base text-[8px] font-bold p-1 md:p-0">
                                 {item.status}
