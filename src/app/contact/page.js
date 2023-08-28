@@ -71,7 +71,11 @@ export default function Page() {
                                 <label htmlFor="message">Message</label>
                                 <input placeholder="Write message" className="text-[15px] w-full border-b-2 focus:outline-none" type="text" name="" id="" />
                             </div>
-                            <div className=""></div>
+                            <div className="flex justify-end">
+                                <button className="mt-11 bg-primary text-white h-[54px] w-[214px] rounded-lg ">
+                                    Send Message
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>

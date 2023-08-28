@@ -9,64 +9,7 @@ import { NavBar } from "@comp/NavBar";
 
 
 export default function Page() {
-    // const projects = [
-    //     {
-    //         name: "zakkah",
-    //         date: "01/2/23",
-    //         location: "kaduna"
-    //     },
-    //     {
-    //         name: "zakkah",
-    //         date: "01/2/23",
-    //         location: "kano"
-    //     },
-    //     {
-    //         name: "zakkah",
-    //         date: "01/2/23",
-    //         location: "zaria"
-    //     },
-    //     {
-    //         name: "zakkah",
-    //         date: "01/2/23",
-    //         location: "katsina"
-    //     },
-    //     {
-    //         name: "zakkah",
-    //         date: "01/2/23",
-    //         location: "zamfara"
-    //     },
-    //     {
-    //         name: "zakkah",
-    //         date: "01/2/23",
-    //         location: "abuja"
-    //     },
-    //     {
-    //         name: "zakkah",
-    //         date: "01/2/23",
-    //         location: "adamawa"
-    //     }
-    //     ,
-    //     {
-    //         name: "zakkah",
-    //         date: "01/2/23",
-    //         location: "yobe"
-    //     },
-    //     {
-    //         name: "zakkah",
-    //         date: "01/2/23",
-    //         location: "sokoto"
-    //     },
-    //     {
-    //         name: "zakkah",
-    //         date: "01/2/23",
-    //         location: "taraba"
-    //     },
-    //     {
-    //         name: "zakkah",
-    //         date: "01/2/23",
-    //         location: "jalingo"
-    //     },
-    // ]
+   
     return (
         <div className="mx-[20px] my-[30px] block md:block ">
             <NavBar />

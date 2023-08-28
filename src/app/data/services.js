@@ -8,6 +8,7 @@ export const services = [
         text: "Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting",
         projects: [
             {
+                pid:"1",
                 name: "Sewing machine and clothes",
                 location: "kaduna, nigeria",
                 summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, amet!",
@@ -28,6 +29,7 @@ export const services = [
         text: "Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting",
         projects: [
             {
+                pid:"2",
                 name: "Sewing machine and clothes",
                 location: "kaduna",
                 summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, amet!",
@@ -39,6 +41,7 @@ export const services = [
                 status:"previous"
             },
             {
+                pid:"3",
                 name: "Sewing machine and clothes",
                 location: "kaduna",
                 summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, amet!",
@@ -50,6 +53,7 @@ export const services = [
                 status:"ongoing"
             },
             {
+                pid:"4",
                 name: "Sewing machine and clothes",
                 location: "kaduna",
                 summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, amet!",
@@ -61,6 +65,7 @@ export const services = [
                 status:"previous"
             },
             {
+                pid:"5",
                 name: "Sewing machine and clothes",
                 location: "kaduna",
                 summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, amet!",
@@ -72,6 +77,7 @@ export const services = [
                 status:"ongoing"
             },
             {
+                pid:"6",
                 name: "Sewing machine and clothes",
                 location: "kaduna",
                 summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, amet!",
@@ -83,6 +89,7 @@ export const services = [
                 status:"ongoing"
             },
             {
+                pid:"7",
                 name: "Sewing machine and clothes",
                 location: "kaduna",
                 summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, amet!",
@@ -103,6 +110,7 @@ export const services = [
         text: "Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting",
         projects: [
             {
+                pid:"8",
                 name: "Sewing machine and clothes",
                 location: "kaduna",
                 summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, amet!",
@@ -123,6 +131,7 @@ export const services = [
         text: "Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting",
         projects: [
             {
+                pid:"9",
                 name: "Sewing machine and clothes",
                 location: "kaduna",
                 summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, amet!",
@@ -143,6 +152,7 @@ export const services = [
         text: "Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting",
         projects: [
             {
+                pid:"10",
                 name: "Sewing machine and clothes",
                 location: "kaduna",
                 summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, amet!",
@@ -163,6 +173,7 @@ export const services = [
         text: "Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum is simply dummy text of the printing and typesetting",
         projects: [
             {
+                pid:"11",
                 name: "Sewing machine and clothes",
                 location: "kaduna",
                 summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, amet!",
