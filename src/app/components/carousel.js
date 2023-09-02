@@ -1,11 +1,9 @@
 "use client";
 import { Swiper, SwiperSlide } from "swiper/react"
-// import Image1 from "../../../public/images/img1.png"
 import Image from "next/image"
 import "swiper/css"
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-// import './styles.css';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 
