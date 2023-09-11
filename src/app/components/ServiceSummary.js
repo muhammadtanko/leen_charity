@@ -1,6 +1,6 @@
 export const ServiceSummary = () => {
     return (
-        <div className="m-[35px]">
+        <div className="px-6 py-4">
             <div className="flex justify-between">
                 <div className="flex flex-col">
                     <span className="font-medium text-xs md:text-6xl text-primary">595+</span>

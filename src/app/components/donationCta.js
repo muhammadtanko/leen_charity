@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export const DonationCta = () => {
     return (
-        <div className="m-[30px] flex flex-col md:flex-row md:gap-20 justify-items-center">
+        <div className="px-6 py-4 flex flex-col md:flex-row md:gap-20 justify-items-center">
             <div className="relative w-[650px] h-[570px] min-w-[600px] ">
                 <div className="absolute top-0 left-0 z-10 ">
                     <img className="w-[151px] h-[207px] md:w-[283px] md:h-[380px] " src="/images/img1.png" alt="" />
@@ -16,12 +16,12 @@ export const DonationCta = () => {
                     <img className="w-[151px] h-[208px] md:w-[283px] md:h-[380px] " src="/images/img3.png" alt="" />
                 </div>
             </div>
-            <div className=" md:block md:flex md:flex-col">
+            <div className="md:flex md:flex-col">
                 <div className=" text-primary font-normal text-[14px] leading-[21px] md:text-[24px] md:leading-[36px] ">
                     Water Aid
                 </div>
                 {/* md:text-[48px] leading-[57px] */}
-                <div className="mt-2 font-semibold text-[16px] leading-[19px] text-[48px] leading-[57.6px]">
+                <div className="mt-2 font-semibold text-[16px] leading-[19px] md:text-[48px] md:leading-[57.6px]">
                     Lorem ipsum dolor sit amet consectetur.
                 </div>
                 <div className="mt-[32px] font-normal text-[10px] leading-[15px] md:text-[16px] md:leading-[24px] md:max-w-[592px]">

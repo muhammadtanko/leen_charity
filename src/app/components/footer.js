@@ -54,7 +54,7 @@ export const Footer = () => {
     return (
         <div className="bg-footerbg">
 
-            <div className=" mx-[30px] mt-[58px] py-[50px] flex  flex-col md:mt-[120px] md:flex-row md:justify-between md:py-[100px]">
+            <div className="px-6 py-4 flex flex-col md:mt-[120px] md:flex-row md:justify-between md:py-[100px]">
                 <div className="flex flex-col self-center">
                     <div className="">
                         <div className="text-primary font-medium text-[24px] leading-[36px] ">

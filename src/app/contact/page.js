@@ -11,7 +11,7 @@ export default function Page() {
         {
             name: "mail",
             icon: "/images/mail.svg",
-            info: "example@gmail.com"
+            info: "leencharityislam@gmail.com"
         },
         {
             name: "address",
@@ -27,12 +27,12 @@ export default function Page() {
                 <div className="font-[#000] font font-bold text-[40px] leading-[48px] ">
                     Contact Us
                 </div>
-                <div className="font-[#717171] font-medium text-[18px] leading-5">
+                <div className="font-[#717171] font-medium md:text-[18px] md:leading-5 text-[10px] leading-3">
                     Any questions , remarks or want to sponsor a project ? Just write us a message.
                 </div>
             </div>
             <div className="grid justify-items-center">
-                <div className="w-[70%] h-[647px] shadow-2xl rounded-md p-4 flex">
+                <div className="md:w-[70%] w-full h-[647px] shadow-2xl rounded-md p-4 flex">
                     <div className="w-[45%] h-full bg-primary text-white p-6 rounded-xl">
                         <div className="font-bold md:text-[28px] text-[9px] leading-8 pb-[160px]">
                             Contact Information
@@ -55,16 +55,23 @@ export default function Page() {
                             <input className="border-b-2 focus:outline-none pb-4" placeholder="First Name" type="text" />
                             <input className="border-b-2 focus:outline-none pb-4" placeholder="Last Name" type="email" />
                             <input className="border-b-2 focus:outline-none pb-4" placeholder="Email" type="email" />
-                            <input className="border-b-2 focus:outline-none pb-4" placeholder="Phone Number" type="number" />
+                            <input className="border-b-2 focus:outline-none pb-4" placeholder="Phone" type="number" />
                         </div>
                         <h1 className="pl-4 pt-6">Select Subject?</h1>
-                        <div className="pt-4 px-4 flex justify-between">
-                            <input type="radio" name="type" />
-                            <label htmlFor="type">Inquiry</label>
-                            <input type="radio" name="type" />
-                            <label htmlFor="type">Sponsor a project</label>
-                            <input type="radio" name="type" />
-                            <label htmlFor="type">Other</label>
+                        <div className="pt-4 px-4 md:flex md:justify-between ">
+                            <div className="pb-3">
+                                <input type="radio" name="type" />
+                                <label htmlFor="type" className="pl-3">Inquiry</label>
+                            </div>
+                            <div className="pb-3">
+                                <input type="radio" name="type" />
+                                <label htmlFor="type" className="pl-3">Sponsor a project</label>
+                            </div>
+                            <div className="pb-3">
+                                <input type="radio" name="type" />
+                                <label htmlFor="type" className="pl-3">Other</label>
+                            </div>
+
                         </div>
                         <div className="pt-6 pl-4 flex flex-col">
                             <div className="">
