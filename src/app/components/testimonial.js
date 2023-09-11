@@ -2,7 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 export const Testimonial = () => {
     return (
-        <div className="m-[30px]">
+        <div className="px-6 py-4">
             <div className="flex flex-col">
                 <div className="flex justify-between">
                     <div className="">
@@ -13,7 +13,7 @@ export const Testimonial = () => {
                     </div>
                     <div className="self-end">
                         <Link href="/">
-                            <button className="bg-primary rounded-tr-[29px] w-10 h-10 md:w-[61px] h-[64px] ">
+                            <button className="bg-primary rounded-tr-[29px] w-10 md:w-[61px] h-[64px] ">
                                 <Image className="w-[50px] h-[40px] " width={50} height={40} src={"/images/arrow.svg"}></Image>
                             </button>
                         </Link>

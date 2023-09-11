@@ -4,7 +4,7 @@ import Link from "next/link"
 
 export const Hero = () => {
     return (
-        <div className="px-6 mx-[30px]">
+        <div className="px-6 py-4">
             <div className="flex justify-between">
                 <div className="font-bold mt-[36px] min-w-[674px] ">
                     <p className="text-primary font-bold max-w-[250px]  text-sm md:text-4xl md:max-w-xl">Leen charity Organization is an

@@ -9,7 +9,7 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 export const Carousel = () => {
     return (
-        <div className="mx-[30px] my-[30px] block md:block">
+        <div className="px-6 py-4 block md:block">
             <Swiper
                 className="mySwiper"
                 navigation={true}

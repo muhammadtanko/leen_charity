@@ -11,7 +11,7 @@ export default function Page() {
     const path = usePathname()
     let targetProjects = []
     services.forEach(service => {
-        service.projects.filter((project, idx) => {
+        service.projects.filter((project) => {
             if (project.status == path.split("/")[2]) {
                 targetProjects.push(project)
             }
