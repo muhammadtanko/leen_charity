@@ -21,26 +21,26 @@ export default function Page() {
         <div className="mx-[50px]">
             <NavBar />
             <main>
-                <div className="text-primary font-normal text-[24px] leading-[28px] mb-5">
+                <div className="hidden md:block text-primary font-normal text-[24px] leading-[28px] mb-5">
                     {service[0].name}
                 </div>
                 <div className="flex justify-between">
-                    <div className="">
+                    <div className="hidden md:block">
                         <Image src={"/images/img4.png"} height={445} width={376} />
                     </div>
                     <div className="flex flex-col p-4">
-                        <div className="text-primary font-semibold text-[36px] leading-[42px] mb-10">
+                        <div className="text-primary font-semibold text-[16px] leading-[18px] md:text-[36px] md:leading-[42px] mb-3 md:mb-[30px]">
                             Donate now
                         </div>
-                        <div className="flex justify-between mb-10">
+                        <div className="flex mb-10">
                             <input type="radio" name="payment" id="" value="once" />
-                            <label htmlFor="payment">One Time</label>
+                            <label className="px-2" htmlFor="payment">One Time</label>
                             <input type="radio" name="payment" id="" value="monthly" />
-                            <label htmlFor="payment">Monthly</label>
+                            <label className="pl-2"  htmlFor="payment">Monthly</label>
                         </div>
-                        <div className="flex justify-between mb-8">
+                        <div className="flex mb-8">
                             <span className="border-2 border-primary p-3 rounded-l-lg">N</span>
-                            <input placeholder="Enter amount to donate" type="text" name="amount" id="" className="border-2 border-primary rounded-r-lg p-3 focus:outline-none" />
+                            <input placeholder="Amount" type="text" name="amount" id="" className="border-2 border-primary rounded-r-lg p-3 focus:outline-none w-9/12" />
                         </div>
                         <div className="self-end">
                             <button className="bg-primary text-white rounded-br-3xl p-3" type="submit">Donate</button>
@@ -49,10 +49,10 @@ export default function Page() {
                     <div className="relative inline-block text-left">
                         <button
                             type="button"
-                            className="px-4 py-2 border-2 border-primary rounded-br-[30px] flex text-primary"
+                            className="flex  p-1 md:px-4 md:py-4 border-2 border-primary rounded-br-[30px]  w-[132px] h-[43px] text-primary text-[14px] leading-[21px] md:leading-[27px] md:text-[18px] md:w-[190px] md:h-[60px]"
                             onClick={toggleDropdown}
                         >
-                            Payment Type<Image className="md:pt-2 md:pl-2" src={"/images/dropDown.svg"} height={35} width={30} />
+                            Payment Type<Image className="" src={"/images/dropDown.svg"} height={25} width={20} />
                         </button>
                         <div className={`absolute ${isOpen ? "" : "hidden"} mt-2 bg-white w-full text-black border-primary border rounded-md drop-shadow-lg divide-y divide-primary`}>
                             <a href="#" className="block px-4 py-2 hover:bg-gray-100">
